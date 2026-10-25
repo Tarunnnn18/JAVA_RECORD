@@ -1224,7 +1224,7 @@ const num=n=>String(n).padStart(2,"0");
 function home(){
  app.innerHTML=`<section class="hero"><div><p class="crumb">JAVA PROGRAMMING · LAB NOTEBOOK</p>
  <h1>Learning <em>Java</em>, One Program at a Time.</h1><p>Every week's programs, source code and console output — collected in one place. Pick a week to start exploring.</p></div>
- <div class="id"><div class="profile-frame"><img class="profile-photo" src="assets/profile-tarun-crop.jpg" alt="Profile photo of Penugonda Tarun"></div><h3>Penugonda Tarun</h3>
+ <div class="id"><div class="profile-frame"><img class="profile-photo" src="profile-tarun-crop.jpg" alt="Profile photo of Penugonda Tarun"></div><h3>Penugonda Tarun</h3>
  <table><tr><td>Roll No</td><td>25EU02106</td></tr><tr><td>Year</td><td>II</td></tr><tr><td>Branch</td><td>AI&amp;ML</td></tr><tr><td>Section</td><td>B</td></tr><tr><td>Subject</td><td>Java Programming</td></tr></table></div></section>
  <h2>Weekly Index</h2><div class="grid">${Object.keys(W).map(k=>`<a class="wk" href="#/w/${k}"><small>WEEK</small><b>${num(k)}</b><small>${W[k].name}</small></a>`).join("")}</div>`;
 }
